@@ -1,0 +1,2 @@
+ACTION=="bind", SUBSYSTEMS=="usb", ATTRS{idVendor}=="04b0", ATTRS{idProduct}=="0421", RUN+="/usr/bin/python /home/pi/nikon_dark_current_enable/nikon_dark_current_enable_d90.py"
+
